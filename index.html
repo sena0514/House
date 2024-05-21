@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>House</title>
+      <meta name="description" content="デスクリプションが入ります" />
+      <meta name="robots" content="noindex" />
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <!--=================== GOOGLE FONTS  ===================-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700&display=swap" rel="stylesheet">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="./assets/css/style.min.css">
+
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">Architecture</a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="#" class="nav__link">Home</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="nav__link">Projects</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="nav__link">News</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="nav__link">Store</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="nav__link">Contact</a>
+                  </li>
+               </ul>
+            </div>
+
+             <!-- Drawer Button -->
+             <button class="drawer-icon" id="drawer-button">
+               <span class="drawer-icon__bar"></span>
+               <span class="drawer-icon__bar"></span>
+               <span class="drawer-icon__bar"></span>
+            </button>
+
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home">
+            <div class="home__swiper swiper" id="swiper1">
+               <div class="swiper-wrapper">
+                  <article class="home__article swiper-slide">
+                     <div class="home__data container">
+                        <p class="home__subtitle" data-swiper-parallax="500">Architecture</p>
+                        <h1 class="home__title" data-swiper-parallax="400">Relaxing Steep<br>Lake House</h1>
+
+                        <a href="#" class="home__button" data-swiper-parallax="300">
+                           See Project<i class="ri-arrow-right-s-line"></i>
+                        </a>
+                     </div>
+
+                     <picture class="home__img" data-swiper-parallax="-300">
+                       <source  srcset="./assets/img/home-1.webp"  type="image/webp"/>
+                       <img src="./assets/img/home-1.jpg" alt="" loading="lazy"/>
+                     </picture>
+                     <div class="home__shadow"></div>
+                  </article>
+
+                  <article class="home__article swiper-slide">
+                     <div class="home__data container">
+                        <p class="home__subtitle" data-swiper-parallax="500">Architecture</p>
+                        <h1 class="home__title" data-swiper-parallax="400">Luxury House <br> In The Forest</h1>
+
+                        <a href="#" class="home__button" data-swiper-parallax="500">
+                           See Project<i class="ri-arrow-right-s-line"></i>
+                        </a>
+                     </div>
+
+                     <picture class="home__img" data-swiper-parallax="-300">
+                       <source  srcset="./assets/img/home-2.webp"  type="image/webp"/>
+                       <img src="./assets/img/home-2.jpg" alt="" loading="lazy"/>
+                     </picture>
+                     <div class="home__shadow"></div>
+                  </article>
+
+                  <article class="home__article swiper-slide">
+                     <div class="home__data container">
+                        <p class="home__subtitle" data-swiper-parallax="500">Architecture</p>
+                        <h1 class="home__title" data-swiper-parallax="400">Modern House <br> On The Rock</h1>
+
+                        <a href="#" class="home__button" data-swiper-parallax="300">
+                           See Project<i class="ri-arrow-right-s-line"></i>
+                        </a>
+                     </div>
+
+                     <picture class="home__img" data-swiper-parallax="-300">
+                       <source  srcset="./assets/img/home-3.webp"  type="image/webp"/>
+                       <img src="./assets/img/home-3.jpg" alt="" loading="lazy"/>
+                     </picture>
+                     <div class="home__shadow"></div>
+                  </article>
+
+                  <article class="home__article swiper-slide">
+                     <div class="home__data container">
+                        <p class="home__subtitle" data-swiper-parallax="500">Architecture</p>
+                        <h1 class="home__title" data-swiper-parallax="400">Luxury <br> Curved House</h1>
+
+                        <a href="#" class="home__button" data-swiper-parallax="300">
+                           See Project<i class="ri-arrow-right-s-line"></i>
+                        </a>
+                     </div>
+
+                     <picture class="home__img" data-swiper-parallax="-300">
+                       <source  srcset="./assets/img/home-4.webp"  type="image/webp"/>
+                       <img src="./assets/img/home-4.jpg" alt="" loading="lazy"/>
+                     </picture>
+                     <div class="home__shadow"></div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="home__content">
+               <div class="home__social">
+                  <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                     <i class="ri-facebook-circle-line"></i>
+                  </a>
+
+                  <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
+
+                  <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                     <i class="ri-twitter-x-line"></i>
+                  </a>
+               </div>
+               <!-- Pagination -->
+               <div class="swiper-pagination"></div>
+
+               <!-- Navigation -->
+               <div class="swiper-navigation">
+                  <div class="swiper-button-prev">
+                     <i class="ri-arrow-left-s-line"></i>
+                  </div>
+                  <div class="swiper-button-next">
+                     <i class="ri-arrow-right-s-line"></i>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="./assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="./assets/js/main.min.js"></script>
+   </body>
+</html>
